@@ -18,8 +18,6 @@
 		<jsp.version>2.3.1</jsp.version>
 		<hsqldb.version>1.8.0.10</hsqldb.version>
 		<mysql.version>8.0.11</mysql.version>
-		<jaxb-api.version>2.3.0</jaxb-api.version>
-		<javax.validation>1.1.0.Final</javax.validation>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -65,11 +63,6 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>${javax.validation}</version>
-		</dependency>
-		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>javax.servlet.jsp-api</artifactId>
 			<version>${jsp.version}</version>
@@ -88,11 +81,6 @@
 			<version>${tld.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
-			<version>${jaxb-api.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
